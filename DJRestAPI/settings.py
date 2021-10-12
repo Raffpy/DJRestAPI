@@ -94,10 +94,10 @@ DATABASES = {
     #}
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'NAME': 'ravntest',
+        'USER': 'ravnuser',
+        'PASSWORD': 'Dbuser_2021!',
+        'HOST': 'ravntest.czg7ufwmadp4.us-east-2.rds.amazonaws.com',
         'PORT': '3306',
     }
 }

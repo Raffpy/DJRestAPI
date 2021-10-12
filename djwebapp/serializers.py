@@ -1,8 +1,9 @@
 from django.db import models
-from rest_framework import serializer
-from models import Tutorial
 
-class TutorialSerializer(serializer.ModelSerializer):
+from rest_framework import serializers
+from djwebapp.models import Tutorial
+
+class TutorialSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Tutorial
